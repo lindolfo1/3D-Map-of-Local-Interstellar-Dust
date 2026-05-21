@@ -22,13 +22,10 @@ This project does that reconstruction. Inputs are raw Gaia DR3 photometry and pa
 
 ## Results
 
-![Top-down view](renders/dust_top.png)
+![Top-down view](dust_top.png)
 *Looking down at the galactic plane from above the north galactic pole. The Sun sits at the center; dust complexes appear as bright concentrations spread across the plane within ~500 pc.*
 
-![Edge-on view](renders/dust_edgeon.png)
-*Edge-on view, looking along the galactic plane. The vertical extent of the dust traces the disk's scale height — dust isn't perfectly flat but concentrates within a band of ~50–100 pc above and below the plane.*
-
-![Isometric view](renders/dust_isometric.png)
+![Isometric view](dust_isometric.png)
 *Three-quarter perspective with the polar reference grid visible in the galactic plane.*
 
 Interactive version: open `dust_volume.html` in a browser. Click and drag to rotate; the camera icon top-right exports a 4800×3200 PNG of the current view.
