@@ -32,6 +32,10 @@ This project does that reconstruction. Inputs are raw Gaia DR3 photometry and pa
 
 Interactive version: open `dust_volume.html` in a browser. Click and drag to rotate; the camera icon top-right exports a 4800×3200 PNG of the current view.
 
+## Method Explanation
+
+![Pipeline](pipeline.png)
+
 ## Pipeline
 
 The pipeline is split into four scripts, run in order:
