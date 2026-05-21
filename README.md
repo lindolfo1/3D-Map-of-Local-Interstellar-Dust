@@ -1,6 +1,6 @@
 # 3D Map of Galactic Dust
 
-A from-scratch reconstruction of the interstellar dust distribution within ~500 pc of the Sun, built from Gaia DR3 photometry. End-to-end pipeline from raw archive query to interactive 3D visualization, with all the science hand-written from first principles — no off-the-shelf dust-map library.
+A from-scratch reconstruction of the interstellar dust distribution within ~500 pc of the Sun, built from Gaia DR3 photometry. End-to-end pipeline from raw archive query to interactive 3D visualization, no off-the-shelf dust-map library.
 
 ![Rotation animation](dust_rotation.gif)
 
@@ -23,9 +23,11 @@ This project does that reconstruction. Inputs are raw Gaia DR3 photometry and pa
 ## Results
 
 ![Top-down view](dust_top.png)
+
 *Looking down at the galactic plane from above the north galactic pole. The Sun sits at the center; dust complexes appear as bright concentrations spread across the plane within ~500 pc.*
 
 ![Isometric view](dust_isometric.png)
+
 *Three-quarter perspective with the polar reference grid visible in the galactic plane.*
 
 Interactive version: open `dust_volume.html` in a browser. Click and drag to rotate; the camera icon top-right exports a 4800×3200 PNG of the current view.
