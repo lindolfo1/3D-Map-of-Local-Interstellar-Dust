@@ -193,7 +193,7 @@ def import_failed_chunks(failed_regions, outfile="01-gaia_results_full.csv",
         print(f"saved to {outfile}")
 
 if __name__ == "__main__":
-    # import_data_chunked()
-    import_failed_chunks([(0, -30), (30, -30)])
+    import_data_chunked()
+    # import_failed_chunks([(0, -30), (30, -30)])    # uncomment this and add the sky patches that failed to import
     clean_data()
     generate_abs_mag()
